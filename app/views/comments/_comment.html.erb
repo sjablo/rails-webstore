@@ -1,0 +1,15 @@
+<p>
+  <strong>Komentujacy:</strong>
+  <%= comment.commenter %>
+</p>
+ 
+<p>
+  <strong>Komentarz:</strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= link_to 'Usuń komentarz', [comment.product, comment],
+               method: :delete,
+               data: { confirm: 'Czy na pewno?' } %>
+</p>

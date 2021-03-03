@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>O nas - sklep internetowy China import</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<img src="logo3.png" alt="logo"/>
+		<nav>
+			<ul>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="onas.html">O nas</a></li>
+				<li><a href="dostawa.html">Dostawa i płatność</a></li>
+				<li><a href="info.html">Informacje o firmie</a></li>
+				<li><a href="formularz">Formularz kontaktowy</a></li>
+				<li><%= link_to 'Lista produktów', controller: 'products' %></li>
+				<li><%= link_to 'Nowy produkt', new_product_path %></li>
+			</ul>
+		</nav>
+		<section>
+			<h3>O nas</h3>
+			<p>
+				Jesteśmy sklepem internetowy handlującym sprzętem elektronicznym importowanym z Chin.<br />
+				W naszej ofercie znajdziecie Państwo między innymi:
+			</p>
+			<ol>
+				<li>Smartfony</li>
+				<li>Tablety</li>
+				<li>Akcesoria komputerowe</li>
+				<li>Sprzęt audio</li>
+			</ol>
+			<p>Sprzęt sprowadzamy bezpośrednio z Chin na zamówienie Klienta. Ceny zależne są od aktualnego kursu dolara amerykańskiego (USD) i aktualizowane na bieżąco. W przypadku braku poszukiwanego produktu w ofercie na naszej stronie prosimy o kontakt za pośrednictwem formularza <a href="formularz.html">"Skontaktuj się z nami"</a> bądź na adres e-mail <a href="mailto:zapytania@chinaimport.pl">zapytania@chinaimport.pl</a>.</p>
+			<h4>Życzymy udanych zakupów w naszym sklepie!</h4>
+		</section>
+		<footer>2016. Chinaimport.pl Wykonał Sławomir Jabłoński, s14736</footer>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<p>
+  <strong>Nazwa:</strong>
+  <%= @product.nazwa %>
+</p>
+ 
+<p>
+  <strong>Opis:</strong>
+  <%= @product.opis %>
+</p>
+
+<h2>Komentarze</h2>
+<%= render @product.comments %>
+
+<h2>Dodaj komentarz:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Edytuj produkt', edit_product_path(@product) %>
+<%= link_to 'Powrot', products_path %>

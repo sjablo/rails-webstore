@@ -1,0 +1,64 @@
+﻿/*Wykonał Sławomir Jabłoński, s14736*/
+	body {
+		background-color: #EFFFDF;
+	}
+	section {
+		display: inline-block;
+		width: 80%;
+	}
+	img {
+		float: none;
+		width: 100%;
+	}
+	h3 {
+		font-size: 2em;
+		clear: both;
+	}
+	p {
+		color: brown;
+		font-family:Courier;
+	}
+	table {
+		border: 5px groove blue;
+		clear: both;
+	}
+	a {
+		text-decoration:none;
+	}
+	a:hover {
+		color: lightblue;
+	}
+	ul{
+		padding-right: 5%;
+		padding-left: 15%;
+	}
+	ol {
+		font-style:oblique;
+		text-decoration:underline;
+	}
+	footer {
+		font-size: 10px;
+		color: gray;
+		margin-top: 10px;
+		text-align: center;
+		clear: both;
+	}
+	nav {
+		display: inline-block;
+		float: right;
+		border: solid 1px;
+		border-radius: 10px;
+		background-color: #FFFFD2;
+	}
+	td {
+		border: 5px groove blue;
+	}
+
+@media print  {
+	* {
+		font-family:Arial !important;
+	}
+	nav {
+		display:none;
+	}
+}
